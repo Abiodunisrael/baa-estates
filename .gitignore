@@ -1,0 +1,21 @@
+# ============ SECRETS — NEVER COMMIT ============
+config/config.php
+.env
+.env.*
+
+# ============ USER DATA ============
+uploads/properties/*
+!uploads/properties/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# ============ EDITOR / OS JUNK ============
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============ DEPENDENCIES ============
+node_modules/
+vendor/
